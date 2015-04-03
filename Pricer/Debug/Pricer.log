@@ -1,0 +1,26 @@
+﻿Build started 03/04/2015 15:24:16.
+     1>Project "D:\PEPS\bis\Peps-MultiView\Pricer\Pricer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\PEPS\bis\Peps-MultiView\\pnl-win32-1.7.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PRICER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /MDd /Zp1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Computations.cpp
+         Computations.cpp
+     1>d:\peps\bis\peps-multiview\pricer\computations.cpp(116): warning C4101: 'optionType_' : unreferenced local variable
+     1>d:\peps\bis\peps-multiview\pricer\computations.cpp(158): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\peps\bis\peps-multiview\pricer\computations.cpp(159): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\PEPS\bis\Peps-MultiView\Debug\Pricer.dll" /INCREMENTAL /NOLOGO /LIBPATH:"D:\PEPS\bis\Peps-MultiView\\pnl-win32-1.7.1\lib" libpnl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\PEPS\bis\Peps-MultiView\Debug\Pricer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\PEPS\bis\Peps-MultiView\Debug\Pricer.lib" /MACHINE:X86 /DLL Debug\moduleis.obj
+         Debug\bs.obj
+         Debug\Computations.obj
+         Debug\mc.obj
+         Debug\vasicek.obj
+         Pricer.vcxproj -> D:\PEPS\bis\Peps-MultiView\Debug\Pricer.dll
+       PostBuildEvent:
+         copy "D:\PEPS\bis\Peps-MultiView\Debug\Pricer.dll" "D:\PEPS\bis\Peps-MultiView\Peps\bin\Pricer.dll"
+         
+         
+         :VCEnd
+                 1 fichier(s) copié(s).
+     1>Done Building Project "D:\PEPS\bis\Peps-MultiView\Pricer\Pricer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.87

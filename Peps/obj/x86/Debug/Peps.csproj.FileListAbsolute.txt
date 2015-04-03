@@ -1,0 +1,11 @@
+D:\PEPS\bis\Peps-MultiView\Peps\bin\Resources\MarketValues.txt
+D:\PEPS\bis\Peps-MultiView\Peps\bin\Peps.dll.config
+D:\PEPS\bis\Peps-MultiView\Peps\bin\Peps.dll
+D:\PEPS\bis\Peps-MultiView\Peps\bin\Peps.pdb
+D:\PEPS\bis\Peps-MultiView\Peps\bin\Wrapper.dll
+D:\PEPS\bis\Peps-MultiView\Peps\bin\Wrapper.pdb
+D:\PEPS\bis\Peps-MultiView\Peps\obj\x86\Debug\Peps.Properties.Resources.resources
+D:\PEPS\bis\Peps-MultiView\Peps\obj\x86\Debug\Peps.csproj.GenerateResource.Cache
+D:\PEPS\bis\Peps-MultiView\Peps\obj\x86\Debug\Peps.dll
+D:\PEPS\bis\Peps-MultiView\Peps\obj\x86\Debug\Peps.pdb
+D:\PEPS\bis\Peps-MultiView\Peps\obj\x86\Debug\Peps.csprojResolveAssemblyReference.cache

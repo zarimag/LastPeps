@@ -1,0 +1,24 @@
+﻿Build started 03/04/2015 15:24:24.
+     1>Project "D:\PEPS\bis\Peps-MultiView\Wrapper\Wrapper.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\PEPS\bis\Peps-MultiView\\Pricer" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Wrapper.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Wrapper.cpp
+         Wrapper.cpp
+     1>Wrapper.cpp(85): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Wrapper.cpp(86): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Wrapper.cpp(84): warning C4101: 'pnl' : unreferenced local variable
+     1>Wrapper.cpp(97): warning C4101: 'Pl' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\PEPS\bis\Peps-MultiView\Debug\Wrapper.dll" /INCREMENTAL /NOLOGO Delayimp.lib /DELAYLOAD:Pricer.dll /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\PEPS\bis\Peps-MultiView\Debug\Wrapper.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\Stdafx.obj
+         Debug\Wrapper.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         "D:\PEPS\bis\Peps-MultiView\Debug\Pricer.lib"
+         Wrapper.vcxproj -> D:\PEPS\bis\Peps-MultiView\Debug\Wrapper.dll
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"D:\PEPS\bis\Peps-MultiView\Debug\Wrapper.bsc" /n Debug\AssemblyInfo.sbr Debug\Stdafx.sbr Debug\Wrapper.sbr "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.sbr"
+     1>Done Building Project "D:\PEPS\bis\Peps-MultiView\Wrapper\Wrapper.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.62

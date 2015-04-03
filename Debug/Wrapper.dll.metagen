@@ -1,0 +1,28 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Wrapper, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Wrapper.WrapperClass: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Double[] ptfValues : Public
+    Double[] cashValues : Public
+  Methods:
+    computePrice(Double): PrivateScope, Public, HideBySig
+    computePrice(Double[], Double[], Double[], Int32, Int32, Double, Int32, Int32, Int32, Double): PrivateScope, Public, HideBySig
+    computeDelta(Double): PrivateScope, Public, HideBySig
+    computeDelta(Double[], Double[], Double[], Int32, Int32, Double, Int32, Int32, Int32, Double): PrivateScope, Public, HideBySig
+    computeHedge(Double[], Double[], Double[], Int32, Int32, Double, Int32, Int32, Int32, Double, Double): PrivateScope, Public, HideBySig
+    computeVol(): PrivateScope, Public, HideBySig
+    getPrice(): PrivateScope, Public, HideBySig
+    getIC(): PrivateScope, Public, HideBySig
+    getPL(): PrivateScope, Public, HideBySig
+    getDelta(): PrivateScope, Public, HideBySig
+    getDeltaIC(): PrivateScope, Public, HideBySig

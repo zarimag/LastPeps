@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CH0012005267" xml:space="preserve">
+    <value>NOVARTIS AG-REG SHS;NOT.F</value>
+  </data>
+  <data name="DE0005557508" xml:space="preserve">
+    <value>DEUTSCHE TELEKOM AG-REG;DTE.F</value>
+  </data>
+  <data name="DE0007614406" xml:space="preserve">
+    <value>E.ON AG;EOAN.F</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Deltas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deltas1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Deltas2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deltas2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Deltas3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deltas3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ES0144580018" xml:space="preserve">
+    <value>IBERDROLA SA;IBE1.F</value>
+  </data>
+  <data name="FR0000120321" xml:space="preserve">
+    <value>L'OREAL;OR.PA</value>
+  </data>
+  <data name="FR0000120644" xml:space="preserve">
+    <value>GROUPE DANONE;BN.PA</value>
+  </data>
+  <data name="FxCHFEUR" xml:space="preserve">
+    <value>CHF per Euro</value>
+  </data>
+  <data name="FxGBPEUR" xml:space="preserve">
+    <value>GBP per Euro</value>
+  </data>
+  <data name="FxJPYEUR" xml:space="preserve">
+    <value>JPY per Euro</value>
+  </data>
+  <data name="FxUSDEUR" xml:space="preserve">
+    <value>USD per Euro</value>
+  </data>
+  <data name="GB0002374006" xml:space="preserve">
+    <value>DIAGEO PLC;GUI.F</value>
+  </data>
+  <data name="GB0005405286" xml:space="preserve">
+    <value>HSBC HOLDINGS PLC;HBC1.F</value>
+  </data>
+  <data name="GB0007547838" xml:space="preserve">
+    <value>ROYAL BANK OF SCOTLAND;RBS.L</value>
+  </data>
+  <data name="GB0007980591" xml:space="preserve">
+    <value>BP PLC;BPE5.F</value>
+  </data>
+  <data name="GB0008847096" xml:space="preserve">
+    <value>TESCO PLC;TCO.F</value>
+  </data>
+  <data name="IT0003128367" xml:space="preserve">
+    <value>ENEL SPA;ENL.F</value>
+  </data>
+  <data name="JP3735400008" xml:space="preserve">
+    <value>NIPPON;NTT.BE</value>
+  </data>
+  <data name="Market1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Market1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Market2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Market2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Market3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Market3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Prix1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Prix1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Prix2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Prix2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Prix3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Prix3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="US1729671016" xml:space="preserve">
+    <value>CITIGROUP;C</value>
+  </data>
+  <data name="US3696041033" xml:space="preserve">
+    <value>GENERAL ELECTRIC;GEC.F</value>
+  </data>
+  <data name="US4781601046" xml:space="preserve">
+    <value>JOHNSON &amp; JOHNSON;JNJ.F</value>
+  </data>
+  <data name="US7134481081" xml:space="preserve">
+    <value>PEPSICO INC;PEP.F</value>
+  </data>
+  <data name="US7427181091" xml:space="preserve">
+    <value>PROCTER &amp; GAMBLE;PRG.F</value>
+  </data>
+  <data name="US92343V1044" xml:space="preserve">
+    <value>VERIZON COMMUNICATIONS INC;BAC.F</value>
+  </data>
+  <data name="US9497461015" xml:space="preserve">
+    <value>WELLS FARGO &amp; COMPANY;NWT.F</value>
+  </data>
+</root>
