@@ -4,27 +4,49 @@
 $(document).ready(function() {
     console.log("document ready");
     var offset = 0;
+    getXMLHttpRequest()
     plot();
+
+    function getXMLHttpRequest() { /* Instance XMLHTttpRequest */
+        var xmlhttp = null;
+        if (window.XMLHttpRequest || window.ActiveXObject) {
+            if (window.ActiveXObject) {
+                try {
+                    xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+            }
+            else {
+                xmlhttp = new XMLHttpRequest();
+            }
+        }
+        else {
+            alert("Votre navigateur ne supporte pas l'objet XMLHTTPRequest.");
+            return null;
+        }
+        return xmlhttp;
+    }
 
     function plot() {
         var request = getXMLHttpRequest(); /* Instance XMLHttpRequest*/
         /* on récupère les données du fichiers TextFile, path probablement à modifier */
-        request.open('GET', 'D:\GitHub\LastPeps\TextFile.txt', false);
+        request.open('GET', "TextFile.txt", false);
         request.send(null);
         var ligne = request.responseText.split(/\n/g); /* Stock tout le fichier dans la variable (tableau)*/
         var res = [];
-        var l = "";
         for (var i = 0; i < ligne.length; i++) {
-            l = ligne[i].split(" ");
-            res.push(l[0], l[1]);    /* on remplit le res par les valeurs des différentes lignes */
+            var l = ligne[i].split(" ");
+            res.push([l[0], l[1]]);    /* on remplit le res par les valeurs des différentes lignes */
         }
-        /*
-        var sin = [],
-            cos = [];
-        for (var i = 0; i < 12; i += 0.2) {
-            sin.push([i, Math.sin(i + offset)]);
-            cos.push([i, Math.cos(i + offset)]);
-        }*/
+        //document.write(res);
+        var sin = [];
+        //    cos = [];
+        for (var j = 0; j < 12; j += 0.2) {
+            sin.push([j, Math.sin(j + offset)]);
+        //    cos.push([i, Math.cos(i + offset)]);
+        }
 
         var options = {
             series: {
@@ -38,9 +60,13 @@ $(document).ready(function() {
             grid: {
                 hoverable: true //IMPORTANT! this is needed for tooltip to work
             },
+            xaxis: {
+                min: -1,
+                max: 15
+            },
             yaxis: {
-                min: -1.2,
-                max: 1.2
+                min: -1,
+                max: 15
             },
             tooltip: true,
             tooltipOpts: {
@@ -53,13 +79,13 @@ $(document).ready(function() {
         };
 
         var plotObj = $.plot($("#flot-line-chart"), [{
-                data: res,
-                label: "Résultat"
-                /*data: sin,
+            data: res,
+            label: "Résultat"},{
+                data: sin,
                 label: "Portfolio value"
-            }, {
-                data: cos,
-                label: "Product value"*/
+            //}, {
+            //    data: cos,
+            //    label: "Product value"
             }],
             options);
     }

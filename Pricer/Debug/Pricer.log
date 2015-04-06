@@ -1,26 +1,45 @@
-﻿Build started 03/04/2015 15:24:16.
-     1>Project "D:\PEPS\bis\Peps-MultiView\Pricer\Pricer.vcxproj" on node 2 (Build target(s)).
+﻿La génération a démarré 06/04/2015 21:37:49.
+     1>Projet "D:\GitHub\LastPeps\Pricer\Pricer.vcxproj" sur le nœud 2 (Rebuild cible(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\PEPS\bis\Peps-MultiView\\pnl-win32-1.7.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PRICER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /MDd /Zp1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Computations.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\GitHub\LastPeps\\pnl-win32-1.7.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PRICER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /MDd /Zp1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt moduleis.cpp bs.cpp Computations.cpp mc.cpp vasicek.cpp
+         vasicek.cpp
+         mc.cpp
+     1>d:\github\lastpeps\pricer\mc.cpp(18): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned long', perte possible de données
+     1>d:\github\lastpeps\pricer\mc.cpp(164): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+     1>d:\github\lastpeps\pricer\mc.cpp(166): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+     1>d:\github\lastpeps\pricer\mc.cpp(269): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : voir la déclaration de 'fopen'
+     1>d:\github\lastpeps\pricer\mc.cpp(270): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : voir la déclaration de 'fopen'
+     1>d:\github\lastpeps\pricer\mc.cpp(271): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : voir la déclaration de 'fopen'
          Computations.cpp
-     1>d:\peps\bis\peps-multiview\pricer\computations.cpp(116): warning C4101: 'optionType_' : unreferenced local variable
-     1>d:\peps\bis\peps-multiview\pricer\computations.cpp(158): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>d:\peps\bis\peps-multiview\pricer\computations.cpp(159): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\github\lastpeps\pricer\computations.cpp(116): warning C4101: 'optionType_' : variable locale non référencée
+     1>d:\github\lastpeps\pricer\computations.cpp(158): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+     1>d:\github\lastpeps\pricer\computations.cpp(159): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+         bs.cpp
+     1>d:\github\lastpeps\pricer\bs.cpp(138): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+     1>d:\github\lastpeps\pricer\bs.cpp(142): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+     1>d:\github\lastpeps\pricer\bs.cpp(192): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+         moduleis.cpp
+     1>d:\github\lastpeps\pricer\moduleis.cpp(31): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+         Génération de code en cours...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\PEPS\bis\Peps-MultiView\Debug\Pricer.dll" /INCREMENTAL /NOLOGO /LIBPATH:"D:\PEPS\bis\Peps-MultiView\\pnl-win32-1.7.1\lib" libpnl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\PEPS\bis\Peps-MultiView\Debug\Pricer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\PEPS\bis\Peps-MultiView\Debug\Pricer.lib" /MACHINE:X86 /DLL Debug\moduleis.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\LastPeps\Debug\Pricer.dll" /INCREMENTAL /NOLOGO /LIBPATH:"D:\GitHub\LastPeps\\pnl-win32-1.7.1\lib" libpnl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitHub\LastPeps\Debug\Pricer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\LastPeps\Debug\Pricer.lib" /MACHINE:X86 /DLL Debug\moduleis.obj
          Debug\bs.obj
          Debug\Computations.obj
          Debug\mc.obj
          Debug\vasicek.obj
-         Pricer.vcxproj -> D:\PEPS\bis\Peps-MultiView\Debug\Pricer.dll
+            Création de la bibliothèque D:\GitHub\LastPeps\Debug\Pricer.lib et de l'objet D:\GitHub\LastPeps\Debug\Pricer.exp
+         Pricer.vcxproj -> D:\GitHub\LastPeps\Debug\Pricer.dll
        PostBuildEvent:
-         copy "D:\PEPS\bis\Peps-MultiView\Debug\Pricer.dll" "D:\PEPS\bis\Peps-MultiView\Peps\bin\Pricer.dll"
+         copy "D:\GitHub\LastPeps\Debug\Pricer.dll" "D:\GitHub\LastPeps\Peps\bin\Pricer.dll"
          
          
          :VCEnd
                  1 fichier(s) copié(s).
-     1>Done Building Project "D:\PEPS\bis\Peps-MultiView\Pricer\Pricer.vcxproj" (Build target(s)).
+     1>Génération du projet "D:\GitHub\LastPeps\Pricer\Pricer.vcxproj" terminée (Rebuild cible(s)).
 
-Build succeeded.
+La génération a réussi.
 
-Time Elapsed 00:00:07.87
+Temps écoulé 00:00:05.90

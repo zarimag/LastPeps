@@ -1,24 +1,32 @@
-﻿Build started 03/04/2015 15:24:24.
-     1>Project "D:\PEPS\bis\Peps-MultiView\Wrapper\Wrapper.vcxproj" on node 2 (Build target(s)).
+﻿La génération a démarré 06/04/2015 21:37:55.
+     1>Projet "D:\GitHub\LastPeps\Wrapper\Wrapper.vcxproj" sur le nœud 2 (Rebuild cible(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\PEPS\bis\Peps-MultiView\\Pricer" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Wrapper.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Wrapper.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\GitHub\LastPeps\\Pricer /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Wrapper.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\GitHub\LastPeps\\Pricer /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Wrapper.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib AssemblyInfo.cpp Wrapper.cpp
+         AssemblyInfo.cpp
          Wrapper.cpp
-     1>Wrapper.cpp(85): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>Wrapper.cpp(86): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>Wrapper.cpp(84): warning C4101: 'pnl' : unreferenced local variable
-     1>Wrapper.cpp(97): warning C4101: 'Pl' : unreferenced local variable
+     1>Wrapper.cpp(85): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+     1>Wrapper.cpp(86): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+     1>Wrapper.cpp(84): warning C4101: 'pnl' : variable locale non référencée
+     1>Wrapper.cpp(97): warning C4101: 'Pl' : variable locale non référencée
+         Génération de code en cours...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\GitHub\LastPeps\\Pricer /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt "C:\Users\Mathieu\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\PEPS\bis\Peps-MultiView\Debug\Wrapper.dll" /INCREMENTAL /NOLOGO Delayimp.lib /DELAYLOAD:Pricer.dll /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\PEPS\bis\Peps-MultiView\Debug\Wrapper.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\LastPeps\Debug\Wrapper.dll" /INCREMENTAL /NOLOGO Delayimp.lib /DELAYLOAD:Pricer.dll /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitHub\LastPeps\Debug\Wrapper.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
          Debug\AssemblyInfo.obj
          Debug\Stdafx.obj
          Debug\Wrapper.obj
          "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
-         "D:\PEPS\bis\Peps-MultiView\Debug\Pricer.lib"
-         Wrapper.vcxproj -> D:\PEPS\bis\Peps-MultiView\Debug\Wrapper.dll
+         D:\GitHub\LastPeps\Debug\Pricer.lib
+         Wrapper.vcxproj -> D:\GitHub\LastPeps\Debug\Wrapper.dll
        BscMake:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"D:\PEPS\bis\Peps-MultiView\Debug\Wrapper.bsc" /n Debug\AssemblyInfo.sbr Debug\Stdafx.sbr Debug\Wrapper.sbr "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.sbr"
-     1>Done Building Project "D:\PEPS\bis\Peps-MultiView\Wrapper\Wrapper.vcxproj" (Build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"D:\GitHub\LastPeps\Debug\Wrapper.bsc" /n Debug\AssemblyInfo.sbr Debug\Stdafx.sbr Debug\Wrapper.sbr "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.sbr"
+     1>Génération du projet "D:\GitHub\LastPeps\Wrapper\Wrapper.vcxproj" terminée (Rebuild cible(s)).
 
-Build succeeded.
+La génération a réussi.
 
-Time Elapsed 00:00:05.62
+Temps écoulé 00:00:02.18

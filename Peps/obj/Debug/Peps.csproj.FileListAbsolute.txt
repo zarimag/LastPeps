@@ -9,3 +9,14 @@ D:\PEPS\bis\Peps-MultiView\Peps\obj\Debug\Peps.Properties.Resources.resources
 D:\PEPS\bis\Peps-MultiView\Peps\obj\Debug\Peps.csproj.GenerateResource.Cache
 D:\PEPS\bis\Peps-MultiView\Peps\obj\Debug\Peps.dll
 D:\PEPS\bis\Peps-MultiView\Peps\obj\Debug\Peps.pdb
+D:\GitHub\LastPeps\Peps\bin\Resources\MarketValues.txt
+D:\GitHub\LastPeps\Peps\bin\Peps.dll.config
+D:\GitHub\LastPeps\Peps\bin\Peps.dll
+D:\GitHub\LastPeps\Peps\bin\Peps.pdb
+D:\GitHub\LastPeps\Peps\bin\Wrapper.dll
+D:\GitHub\LastPeps\Peps\bin\Wrapper.pdb
+D:\GitHub\LastPeps\Peps\obj\Debug\Peps.csprojResolveAssemblyReference.cache
+D:\GitHub\LastPeps\Peps\obj\Debug\Peps.Properties.Resources.resources
+D:\GitHub\LastPeps\Peps\obj\Debug\Peps.csproj.GenerateResource.Cache
+D:\GitHub\LastPeps\Peps\obj\Debug\Peps.dll
+D:\GitHub\LastPeps\Peps\obj\Debug\Peps.pdb

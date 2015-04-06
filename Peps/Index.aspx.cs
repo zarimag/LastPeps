@@ -43,10 +43,10 @@ namespace Peps
                 CurrentPortfolio.compute();
 
                 PrintResultsOnGUI();
-                
-          
 
-                using (StreamWriter sw = new StreamWriter(@"D:\PEPS\bis\Peps-MultiView\deltaBis.txt"))
+
+
+                using (StreamWriter sw = new StreamWriter(@"D:\GitHub\LastPeps\deltaBis.txt"))
                 {
 
                     for (int i = 0; i < CurrentPortfolio.wrapper.getDelta().Length; i++)
@@ -176,8 +176,8 @@ namespace Peps
                     tr.Cells.Add(delta);
 
                     TableCell totalValue = new TableCell();
-                    totalValue.Text = (Math.Round(Double.Parse(tmp, CultureInfo.InvariantCulture) * deltaVect[cpt], Properties.Settings.Default.Precision)).ToString();
-                    tr.Cells.Add(totalValue);
+                    //totalValue.Text = (Math.Round(Double.Parse(tmp, CultureInfo.InvariantCulture) * deltaVect[cpt], Properties.Settings.Default.Precision)).ToString();
+                    //tr.Cells.Add(totalValue);
 
                     stocksTable.Rows.Add(tr);
                     cpt++;
