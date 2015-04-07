@@ -1,5 +1,5 @@
-﻿La génération a démarré 06/04/2015 21:37:55.
-     1>Projet "D:\GitHub\LastPeps\Wrapper\Wrapper.vcxproj" sur le nœud 2 (Rebuild cible(s)).
+﻿La génération a démarré 07/04/2015 14:39:45.
+     1>Projet "D:\GitHub\LastPeps\Wrapper\Wrapper.vcxproj" sur le nœud 2 (Build cible(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\GitHub\LastPeps\\Pricer /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Wrapper.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Stdafx.cpp
          Stdafx.cpp
@@ -25,8 +25,8 @@
          Wrapper.vcxproj -> D:\GitHub\LastPeps\Debug\Wrapper.dll
        BscMake:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"D:\GitHub\LastPeps\Debug\Wrapper.bsc" /n Debug\AssemblyInfo.sbr Debug\Stdafx.sbr Debug\Wrapper.sbr "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.sbr"
-     1>Génération du projet "D:\GitHub\LastPeps\Wrapper\Wrapper.vcxproj" terminée (Rebuild cible(s)).
+     1>Génération du projet "D:\GitHub\LastPeps\Wrapper\Wrapper.vcxproj" terminée (Build cible(s)).
 
 La génération a réussi.
 
-Temps écoulé 00:00:02.18
+Temps écoulé 00:00:02.09

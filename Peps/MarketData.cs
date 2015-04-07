@@ -96,25 +96,25 @@ namespace Peps
         public ArrayList getPreviousCurrencyPrices(string symbol, string startDate, string endDate)
         {
             ArrayList prices = new ArrayList();
-            string url = string.Format(currencyURL, symbol, startDate, endDate);
+            /*string url = string.Format(currencyURL, symbol, startDate, endDate);
             var webClient = new WebClient();
             string csvData = webClient.DownloadString(url);
             string[] rows = csvData.Replace("\r", "").Split('\n');
             for (int i = rows.Length - 2; i >= 1; i--)
             {
                 prices.Add(Double.Parse(rows[i].Split(',')[1], CultureInfo.InvariantCulture));
-            }
+            }*/
             return prices;
         }
 
         public string getLastCurrencyPrice(string symbol, string startDate, string endDate)
         {
 //            String url = "https://www.quandl.com/api/v1/datasets/CURRFX/" + symbol + ".csv";
-            string url = string.Format(currencyURL, symbol, startDate, endDate);
+            /*string url = string.Format(currencyURL, symbol, startDate, endDate);
             var webClient = new WebClient();
             string csvData = webClient.DownloadString(url);
             string[] rows = csvData.Replace("\r", "").Split('\n');
-            return rows[1].Split(',')[1];
+            return rows[1].Split(',')[1];*/
             return "";
         }
 

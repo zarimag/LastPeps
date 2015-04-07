@@ -13,5 +13,16 @@ namespace Peps
         {
 
         }
+
+        protected string[] parseFile()
+        {
+            string[] lines = System.IO.File.ReadAllLines(@"D:\GitHub\LastPeps\TextFile.txt");
+            foreach (string line in lines)
+            {
+                // Use a tab to indent each line of the file.
+                Console.WriteLine("\t" + line);
+            }
+            return lines;
+        }
     }
 }

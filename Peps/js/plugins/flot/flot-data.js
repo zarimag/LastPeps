@@ -7,7 +7,7 @@ $(document).ready(function() {
     getXMLHttpRequest()
     plot();
 
-    function getXMLHttpRequest() { /* Instance XMLHTttpRequest */
+    function getXMLHttpRequest() {
         var xmlhttp = null;
         if (window.XMLHttpRequest || window.ActiveXObject) {
             if (window.ActiveXObject) {
@@ -30,22 +30,38 @@ $(document).ready(function() {
     }
 
     function plot() {
+        //Methode 1
         var request = getXMLHttpRequest(); /* Instance XMLHttpRequest*/
-        /* on récupère les données du fichiers TextFile, path probablement à modifier */
+        /* on récupère les données du fichiers TextFile */
         request.open('GET', "TextFile.txt", false);
         request.send(null);
         var ligne = request.responseText.split(/\n/g); /* Stock tout le fichier dans la variable (tableau)*/
         var res = [];
         for (var i = 0; i < ligne.length; i++) {
-            var l = ligne[i].split(" ");
+           var l = ligne[i].split(" ");
             res.push([l[0], l[1]]);    /* on remplit le res par les valeurs des différentes lignes */
         }
         //document.write(res);
-        var sin = [];
-        //    cos = [];
+
+        //Methode 2
+        /*var res = [];
+        $.getJSON("/Charts.aspx/parseFile", null, function (data) {
+            if (data.error) {
+                alert("error"); 
+            }
+            else {
+                for (var i = 0; j < data.length; i++) {
+                    var tmp = data[i].split(" ");
+                    res.push([i, tmp[0]]);
+                }
+            }
+        });*/
+
+        var sin = [],
+            cos = [];
         for (var j = 0; j < 12; j += 0.2) {
             sin.push([j, Math.sin(j + offset)]);
-        //    cos.push([i, Math.cos(i + offset)]);
+            cos.push([i, Math.cos(i + offset)]);
         }
 
         var options = {
@@ -79,13 +95,13 @@ $(document).ready(function() {
         };
 
         var plotObj = $.plot($("#flot-line-chart"), [{
-            data: res,
-            label: "Résultat"},{
+                data: res,
+                label: "Résultat"},{
                 data: sin,
                 label: "Portfolio value"
-            //}, {
-            //    data: cos,
-            //    label: "Product value"
+            }, {
+                data: cos,
+                label: "Product value"
             }],
             options);
     }
